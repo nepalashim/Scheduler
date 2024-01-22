@@ -1,33 +1,37 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import axiosInstance from '../axios'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  const [Connection, setConnection] = useState(null)
+  const [error, setError] = useState(null)
+  function handleclick() {
+    axiosInstance.get('/')
+    .then(res =>{
+        console.log(res.data);
+        setConnection(res.data);
+        setError(null);
+    }).catch(err =>{console.log(err);
+      setError('Something went wrong');
+      setConnection(null);})
+  }
   return (
     <>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+     
+     
+      
+        <button onClick={handleclick}>
+        Check Connection
         </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+        <br/>   
+        {error ? (
+          <p style={{ color: 'red' }}>{error}</p>
+        ) : (
+          Connection && <p> {Connection}</p>
+        )}
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+    
     </>
   )
 }
