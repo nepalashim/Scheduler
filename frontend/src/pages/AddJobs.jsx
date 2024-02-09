@@ -54,4 +54,4 @@ const AddJobs = () => {
   )
 }
 
-export default Syaratketen
+export default AddJobs

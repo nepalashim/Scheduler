@@ -1,12 +1,12 @@
-import ClassImage1 from "../assets/img/class/Class-1.jpg";
-import ClassImage2 from "../assets/img/class/Class-2.jpg";
-import ClassImage3 from "../assets/img/class/Class-3.jpg";
-import ClassImage4 from "../assets/img/class/Class-4.jpg";
-import ClassImage5 from "../assets/img/class/Class-5.jpg";
-import ClassImage6 from "../assets/img/class/Class-6.jpg";
-import ClassImage7 from "../assets/img/class/Class-7.jpg";
-import ClassImage8 from "../assets/img/class/Class-8.jpg";
-import ClassImage9 from "../assets/img/class/Class-9.jpg";
+import ClassImage1 from "../assets/img/classItem/Class-1.jpg";
+import ClassImage2 from "../assets/img/classItem/Class-2.jpg";
+import ClassImage3 from "../assets/img/classItem/Class-3.jpg";
+import ClassImage4 from "../assets/img/classItem/Class-4.jpg";
+import ClassImage5 from "../assets/img/classItem/Class-5.jpg";
+import ClassImage6 from "../assets/img/classItem/Class-6.jpg";
+import ClassImage7 from "../assets/img/classItem/Class-7.jpg";
+import ClassImage8 from "../assets/img/classItem/Class-8.jpg";
+import ClassImage9 from "../assets/img/classItem/Class-9.jpg";
 
 import People1 from "../assets/img/testimonial/people-1.jpg";
 import People2 from "../assets/img/testimonial/people-2.jpg";
@@ -20,7 +20,7 @@ export const navLinks = [
   },
   {
     id: 2,
-    path: "class",
+    path: "classItem",
     text: "Class",
   },
   {
