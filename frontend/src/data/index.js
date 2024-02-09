@@ -1,12 +1,12 @@
-import KelasImage1 from "../assets/img/class/kelas-1.jpg";
-import KelasImage2 from "../assets/img/class/kelas-2.jpg";
-import KelasImage3 from "../assets/img/class/kelas-3.jpg";
-import KelasImage4 from "../assets/img/class/kelas-4.jpg";
-import KelasImage5 from "../assets/img/class/kelas-5.jpg";
-import KelasImage6 from "../assets/img/class/kelas-6.jpg";
-import KelasImage7 from "../assets/img/class/kelas-7.jpg";
-import KelasImage8 from "../assets/img/class/kelas-8.jpg";
-import KelasImage9 from "../assets/img/class/kelas-9.jpg";
+import ClassImage1 from "../assets/img/class/Class-1.jpg";
+import ClassImage2 from "../assets/img/class/Class-2.jpg";
+import ClassImage3 from "../assets/img/class/Class-3.jpg";
+import ClassImage4 from "../assets/img/class/Class-4.jpg";
+import ClassImage5 from "../assets/img/class/Class-5.jpg";
+import ClassImage6 from "../assets/img/class/Class-6.jpg";
+import ClassImage7 from "../assets/img/class/Class-7.jpg";
+import ClassImage8 from "../assets/img/class/Class-8.jpg";
+import ClassImage9 from "../assets/img/class/Class-9.jpg";
 
 import People1 from "../assets/img/testimonial/people-1.jpg";
 import People2 from "../assets/img/testimonial/people-2.jpg";
@@ -43,7 +43,7 @@ export const navLinks = [
 export const allClass = [
   {
     id: 1,
-    image: KelasImage1,
+    image: ClassImage1,
     star1: "fa-solid fa-star",
     star2: "fa-solid fa-star",
     star3: "fa-solid fa-star",
@@ -56,7 +56,7 @@ export const allClass = [
   },
   {
     id: 2,
-    image: KelasImage2,
+    image: ClassImage2,
     star1: "fa-solid fa-star",
     star2: "fa-solid fa-star",
     star3: "fa-solid fa-star",
@@ -69,7 +69,7 @@ export const allClass = [
   },
   {
     id: 3,
-    image: KelasImage3,
+    image: ClassImage3,
     star1: "fa-solid fa-star",
     star2: "fa-solid fa-star",
     star3: "fa-solid fa-star",
@@ -82,7 +82,7 @@ export const allClass = [
   },
   {
     id: 4,
-    image: KelasImage4,
+    image: ClassImage4,
     star1: "fa-solid fa-star",
     star2: "fa-solid fa-star",
     star3: "fa-solid fa-star",
@@ -95,7 +95,7 @@ export const allClass = [
   },
   {
     id: 5,
-    image: KelasImage5,
+    image: ClassImage5,
     star1: "fa-solid fa-star",
     star2: "fa-solid fa-star",
     star3: "fa-solid fa-star",
@@ -108,7 +108,7 @@ export const allClass = [
   },
   {
     id: 6,
-    image: KelasImage6,
+    image: ClassImage6,
     star1: "fa-solid fa-star",
     star2: "fa-solid fa-star",
     star3: "fa-solid fa-star",
@@ -121,7 +121,7 @@ export const allClass = [
   },
   {
     id: 7,
-    image: KelasImage7,
+    image: ClassImage7,
     star1: "fa-solid fa-star",
     star2: "fa-solid fa-star",
     star3: "fa-solid fa-star",
@@ -134,7 +134,7 @@ export const allClass = [
   },
   {
     id: 8,
-    image: KelasImage8,
+    image: ClassImage8,
     star1: "fa-solid fa-star",
     star2: "fa-solid fa-star",
     star3: "fa-solid fa-star",
@@ -147,7 +147,7 @@ export const allClass = [
   },
   {
     id: 9,
-    image: KelasImage9,
+    image: ClassImage9,
     star1: "fa-solid fa-star",
     star2: "fa-solid fa-star",
     star3: "fa-solid fa-star",
@@ -163,7 +163,7 @@ export const allClass = [
 export const NewestClass = [
   {
     id: 1,
-    image: KelasImage1,
+    image: ClassImage1,
     star1: "fa-solid fa-star",
     star2: "fa-solid fa-star",
     star3: "fa-solid fa-star",
@@ -176,7 +176,7 @@ export const NewestClass = [
   },
   {
     id: 2,
-    image: KelasImage2,
+    image: ClassImage2,
     star1: "fa-solid fa-star",
     star2: "fa-solid fa-star",
     star3: "fa-solid fa-star",
@@ -189,7 +189,7 @@ export const NewestClass = [
   },
   {
     id: 3,
-    image: KelasImage3,
+    image: ClassImage3,
     star1: "fa-solid fa-star",
     star2: "fa-solid fa-star",
     star3: "fa-solid fa-star",
@@ -202,7 +202,7 @@ export const NewestClass = [
   },
   {
     id: 4,
-    image: KelasImage4,
+    image: ClassImage4,
     star1: "fa-solid fa-star",
     star2: "fa-solid fa-star",
     star3: "fa-solid fa-star",
@@ -215,7 +215,7 @@ export const NewestClass = [
   },
   {
     id: 5,
-    image: KelasImage5,
+    image: ClassImage5,
     star1: "fa-solid fa-star",
     star2: "fa-solid fa-star",
     star3: "fa-solid fa-star",
@@ -228,7 +228,7 @@ export const NewestClass = [
   },
   {
     id: 6,
-    image: KelasImage6,
+    image: ClassImage6,
     star1: "fa-solid fa-star",
     star2: "fa-solid fa-star",
     star3: "fa-solid fa-star",
@@ -398,7 +398,7 @@ export const faq = [
   {
     id: 8,
     eventKey: 7,
-    title: "Apakah boleh ganti Kelas ketika sudah Membeli?",
+    title: "Apakah boleh ganti Class ketika sudah Membeli?",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.",
   },
 ];
