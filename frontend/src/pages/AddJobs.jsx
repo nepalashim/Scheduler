@@ -1,4 +1,4 @@
-import {Container, Row, Col} from "react-router-dom";
+import {Container, Row, Col} from "react-bootstrap";
 import Faqcomponent from "../Components/Faqcomponent";
 const AddJobs = () => {
   return (
