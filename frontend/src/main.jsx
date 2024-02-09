@@ -15,15 +15,15 @@ AOS.init();
 
 
 
-import{BrowserRoouter} from "react-router-dom";
+import{BrowserRouter} from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRoouter>
+    <BrowserRouter>
     <ScrollToTop/>
     <App />
     
-    </BrowserRoouter>
+    </BrowserRouter>
     
-  </React.StrictMode>,
+  </React.StrictMode>
 )
